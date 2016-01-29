@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		7BCE259F1C5A42F100B082F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE259E1C5A42F100B082F8 /* main.m */; };
 		7BCE25A21C5A42F100B082F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE25A11C5A42F100B082F8 /* AppDelegate.m */; };
-		7BCE25A51C5A42F100B082F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE25A41C5A42F100B082F8 /* ViewController.m */; };
 		7BCE25A81C5A42F100B082F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BCE25A61C5A42F100B082F8 /* Main.storyboard */; };
 		7BCE25AA1C5A42F100B082F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BCE25A91C5A42F100B082F8 /* Assets.xcassets */; };
 		7BCE25AD1C5A42F100B082F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BCE25AB1C5A42F100B082F8 /* LaunchScreen.storyboard */; };
+		7BCEC7A81C5B85F400316848 /* ZBXTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEC7A71C5B85F400316848 /* ZBXTabBarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +20,12 @@
 		7BCE259E1C5A42F100B082F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7BCE25A01C5A42F100B082F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7BCE25A11C5A42F100B082F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7BCE25A31C5A42F100B082F8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7BCE25A41C5A42F100B082F8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7BCE25A71C5A42F100B082F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7BCE25A91C5A42F100B082F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BCE25AC1C5A42F100B082F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BCE25AE1C5A42F100B082F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BCEC7A61C5B85F400316848 /* ZBXTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBXTabBarViewController.h; sourceTree = "<group>"; };
+		7BCEC7A71C5B85F400316848 /* ZBXTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBXTabBarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,8 @@
 			children = (
 				7BCE25A01C5A42F100B082F8 /* AppDelegate.h */,
 				7BCE25A11C5A42F100B082F8 /* AppDelegate.m */,
-				7BCE25A31C5A42F100B082F8 /* ViewController.h */,
-				7BCE25A41C5A42F100B082F8 /* ViewController.m */,
+				7BCEC7A61C5B85F400316848 /* ZBXTabBarViewController.h */,
+				7BCEC7A71C5B85F400316848 /* ZBXTabBarViewController.m */,
 				7BCE25A61C5A42F100B082F8 /* Main.storyboard */,
 				7BCE25A91C5A42F100B082F8 /* Assets.xcassets */,
 				7BCE25AB1C5A42F100B082F8 /* LaunchScreen.storyboard */,
@@ -149,9 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BCE25A51C5A42F100B082F8 /* ViewController.m in Sources */,
 				7BCE25A21C5A42F100B082F8 /* AppDelegate.m in Sources */,
 				7BCE259F1C5A42F100B082F8 /* main.m in Sources */,
+				7BCEC7A81C5B85F400316848 /* ZBXTabBarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +300,7 @@
 				7BCE25B31C5A42F100B082F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

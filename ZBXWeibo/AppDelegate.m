@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ZBXTabBarViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    application.statusBarHidden = NO;
+    self.window = [[UIWindow alloc] init];
+    self.window.frame = [UIScreen mainScreen].bounds;
+    
+    ZBXTabBarViewController* tabbarVc = [[ZBXTabBarViewController alloc] init];
+    self.window.rootViewController = tabbarVc;
+    
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
